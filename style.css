@@ -1,0 +1,108 @@
+/*
+ Cuerpo 
+*/
+body { margin: 0;
+       background-image: url("https://pixabay.com/get/g7044885233ced9952c25e53e284d054d29df739c4295ec49a515b9dee79c80fcfb0c735973d0f3665a26285eeee50b68713dc42679443186df5867032ebd7fdb2e4a04927d1fccb2e0cd59ff3a257fa7_1920.jpg");
+       font-family: 'Arial';
+}
+
+/*
+ Formatos de h1,h2,h3 + hover al pasar el mouse
+*/
+
+h1 { font-weight: 300;
+     margin: 5px 0 0;
+     font-size: 40px;
+     color:#02588a;
+     padding: 0 10px 10px;
+     border-radius:2px;
+    font-family: 'Arial', serif;
+}
+h2 { color: #02588a;
+     width: 150px;
+     font-size: 18px;
+     padding-left: 20px;
+     padding-top: 12px;
+     font-family: 'Arial', serif;
+}
+h3 { font-size: 18px;
+     font-weight: bold;
+     margin-bottom: 0;
+     line-height: 28px;
+     font-family: 'Arial', serif;
+     color: #000000;
+}
+h2, h3 { margin-top: 5px }
+a { color: #02588a;
+    display: inline-block;
+    text-decoration: none;
+    padding:2px 4px;
+    border-radius:2px;
+    margin-right:-2px;
+}
+a:hover {
+  background-color:#02588a;
+  color:#fff;
+}
+
+
+/*
+Formato de letras en la seccion del cv
+*/
+
+.key { margin: 0 10px;
+  position: relative;
+}
+
+.section { border-bottom: 1px solid #ddd;
+           padding: 10px 0 15px;
+}
+.section:last-child { border: none }
+.section-text { width: 80%;
+                font-size: 18px;
+                line-height: 24px;
+                margin: 10px 0 10px;
+                padding: 0 10px;
+}
+.subsection { margin: 10px 0 5px }
+.desc { font-size: 16px; font-family: 'Arial'; color:#444;}
+.contact-info { font-size: 16px;
+                text-align: right;
+                
+}
+.light { color: #aaa;letter-spacing:1px;
+         font-size: 14px;
+         line-height:28px;
+         font-family: 'Arial';
+         text-transform:uppercase;
+}
+ul{
+  padding-left:15px;
+}
+
+/*
+ Division de columnas en CV
+*/
+
+.row:before, .row:after { content: "";
+                          display: table;
+}
+.row:after { clear: both }
+.col { float: left }
+.col-right { float: right }
+
+
+/*
+ Formato del fondo de CV 
+*/
+
+.pagina { width: 1000px;
+        min-height: 29.7cm;
+        margin: 1cm auto;
+
+        background: white;
+        padding: 20px 50px;
+}
+
+
+
